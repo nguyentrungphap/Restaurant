@@ -11,7 +11,7 @@ type Props = {
 const DashboardLayout = (props: Props) => {
   const { children } = props;
   return (
-    <div>
+    <div className="h-full flex flex-col flex-1">
       <Navbar />
       <Menu />
       {children}

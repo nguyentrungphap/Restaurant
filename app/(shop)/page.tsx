@@ -1,11 +1,9 @@
-import React from 'react'
+import React from "react";
 
-type Props = {}
+type Props = {};
 
 const HomePage = (props: Props) => {
-  return (
-    <div>HomePage</div>
-  )
-}
+  return <div className="flex flex-col flex-1">HomePage</div>;
+};
 
-export default HomePage
+export default HomePage;
